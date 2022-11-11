@@ -1,7 +1,6 @@
 -- Theme: z
--- Author: glepnir
+-- Author: baesslerpa
 -- License: MIT
--- Source: http://github.com/glepnir/z-nvim
 local z = {
 	base0 = "#1B2229",
 	base1 = "#1c1f24",
@@ -310,7 +309,7 @@ function z.colorscheme()
 
 	vim.o.background = "dark"
 	vim.o.termguicolors = true
-	vim.g.colors_name = "zephyr"
+	vim.g.colors_name = "obscura"
 	set_hl(syntax)
 	async_load_plugin:send()
 end
